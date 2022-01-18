@@ -5,8 +5,8 @@
 ..   * twine upload -r textract dist/*
 ..   * convert into release https://github.com/deanmalmgren/textract/releases
 
-textract 2
-===========
+textract-plus
+=============
 
 Extract text from any document with more power and a more wide extension scope. No more muss. No more fuss.
 

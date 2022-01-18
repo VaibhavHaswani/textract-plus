@@ -8,7 +8,7 @@ import subprocess
 
 import yaml
 
-from textract.colors import green, red
+from textractplus.colors import green, red
 
 root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def run_test(command):

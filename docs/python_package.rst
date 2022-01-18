@@ -5,30 +5,30 @@ Python package
 
 This package is organized to make it as easy as possible to add new
 extensions and support the continued growth and coverage of
-textract. For almost all applications, you will just have to do
+textractplus. For almost all applications, you will just have to do
 something like this::
 
-    import textract
-    text = textract.process('path/to/file.extension')
+    import textractplus
+    text = textractplus.process('path/to/file.extension')
 
 to obtain text from a document. You can also pass keyword arguments to
-``textract.process``, for example, to use a particular method for
+``textractplus.process``, for example, to use a particular method for
 parsing a pdf like this::
 
-    import textract
-    text = textract.process('path/to/a.pdf', method='pdfminer')
+    import textractplus
+    text = textractplus.process('path/to/a.pdf', method='pdfminer')
 
 or to specify a particular output encoding (input encodings are
 inferred using `chardet <https://github.com/chardet/chardet>`_)::
 
-    import textract
-    text = textract.process('path/to/file.extension', encoding='ascii')
+    import textractplus
+    text = textractplus.process('path/to/file.extension', encoding='ascii')
 
 When the file name has no extension, you specify the file's extension as an argument
-to ``textract.process`` like this::
+to ``textractplus.process`` like this::
 
-    import textract
-    text = textract.process('path/to/file', extension='docx')
+    import textractplus
+    text = textractplus.process('path/to/file', extension='docx')
 
 .. _additional-options:
 
@@ -36,7 +36,7 @@ Additional options
 ------------------
 
 Some parsers also enable additional options which can be passed in as keyword
-arguments to the ``textract.process`` function. Here is a quick table of
+arguments to the ``textractplus.process`` function. Here is a quick table of
 available options that are available to the different types of parsers:
 
 ======  =========  ===========================================================
@@ -53,7 +53,7 @@ tiff    language   Specify `the language`_ for OCR-ing text with tesseract
 As an example of using these additional options, you can extract text from a
 Norwegian PDF using Tesseract OCR like this::
 
-    text = textract.process(
+    text = textractplus.process(
         'path/to/norwegian.pdf',
         method='tesseract',
         language='nor',
@@ -63,27 +63,27 @@ Norwegian PDF using Tesseract OCR like this::
 A look under the hood
 ---------------------
 
-When ``textract.process('path/to/file.extension')`` is called,
-``textract.process`` looks for a module called
-``textract.parsers.extension_parser`` that also contains a ``Parser``.
+When ``textractplus.process('path/to/file.extension')`` is called,
+``textractplus.process`` looks for a module called
+``textractplus.parsers.extension_parser`` that also contains a ``Parser``.
 
 
-.. autofunction:: textract.parsers.process
+.. autofunction:: textractplus.parsers.process
 
-Importantly, the ``textract.parsers.extension_parser.Parser`` class
-must inherit from ``textract.parsers.utils.BaseParser``.
+Importantly, the ``textractplus.parsers.extension_parser.Parser`` class
+must inherit from ``textractplus.parsers.utils.BaseParser``.
 
-.. autoclass:: textract.parsers.utils.BaseParser
+.. autoclass:: textractplus.parsers.utils.BaseParser
     :members:
     :undoc-members:
     :show-inheritance:
 
 Many of the parsers rely on command line utilities to do some of the
-parsing. For convenience, the ``textract.parsers.utils.ShellParser``
+parsing. For convenience, the ``textractplus.parsers.utils.ShellParser``
 class includes some convenience methods for streamlining access to the
 command line.
 
-.. autoclass:: textract.parsers.utils.ShellParser
+.. autoclass:: textractplus.parsers.utils.ShellParser
     :members:
     :undoc-members:
     :show-inheritance:
@@ -92,16 +92,16 @@ command line.
 A few specific examples
 -----------------------
 
-There are quite a few parsers included with ``textract``. Rather than
+There are quite a few parsers included with ``textractplus``. Rather than
 elaborating all of them, here are a few that demonstrate how parsers
 work.
 
-.. autoclass:: textract.parsers.epub_parser.Parser
+.. autoclass:: textractplus.parsers.epub_parser.Parser
     :members:
     :undoc-members:
     :show-inheritance:
 
-.. autoclass:: textract.parsers.doc_parser.Parser
+.. autoclass:: textractplus.parsers.doc_parser.Parser
     :members:
     :undoc-members:
     :show-inheritance:

@@ -1,4 +1,4 @@
-# This file contains all python dependencies that are required by the textract
+# This file contains all python dependencies that are required by the textractplus
 # package in order for it to properly work.
 
 argcomplete~=1.10.0
@@ -12,3 +12,4 @@ python-pptx~=0.6.18
 six~=1.12.0
 SpeechRecognition~=3.8.1
 xlrd~=1.2.0
+docx2python>=2.0.3

@@ -27,7 +27,7 @@ class ExtensionNotSupported(CommandLineError):
         return self.render((
             'The filename extension %(ext)s is not yet supported by\n'
             'textract. Please suggest this filename extension here:\n\n'
-            '    https://github.com/deanmalmgren/textract/issues\n\n'
+            '   https://github.com/VaibhavHaswani/textract-plus\n\n'
             'Available extensions include: %(available_extensions_str)s\n'
         ))
 

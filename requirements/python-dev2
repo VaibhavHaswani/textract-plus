@@ -1,5 +1,5 @@
 # This includes all packages that are used in development, including all
-# packages that are required by textract itself (python), packages for
+# packages that are required by textractplus itself (python), packages for
 # documentation builds (python-doc)
 
 -r python

@@ -2,7 +2,7 @@ import glob
 import os
 from setuptools import setup
 
-import textract
+import textractplus
 
 # get all of the scripts
 scripts = glob.glob("bin/*")
@@ -11,7 +11,7 @@ scripts = glob.glob("bin/*")
 with open("README.rst") as stream:
     long_description = stream.read()
 
-github_url = 'https://github.com/deanmalmgren/textract'
+github_url = 'https://github.com/VaibhavHaswani/textract-plus'
 
 
 def parse_requirements(requirements_filename):
@@ -41,19 +41,19 @@ dependencies, dependency_links = parse_requirements(requirements_filename)
 
 
 setup(
-    name=textract.__name__,
-    version="1.6.4",
-    description="extract text from any document. no muss. no fuss.",
+    name=textractplus.__name__,
+    version="1.0",
+    description="A fork from textract with extended extension support and features. No more muss. No more fuss.",
     long_description=long_description,
     url=github_url,
     download_url="%s/archives/master" % github_url,
-    author='Dean Malmgren',
-    author_email='dean.malmgren@datascopeanalytics.com',
+    author='Vaibhav Haswani',
+    author_email='vaibhavhaswani@gmail.com',
     license='MIT',
     scripts=scripts,
     packages=[
-        'textract',
-        'textract.parsers',
+        'textractplus',
+        'textractplus.parsers',
     ],
     install_requires=dependencies,
     extras_require={

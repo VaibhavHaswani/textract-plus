@@ -107,8 +107,8 @@ class BaseParserTestCase(GenericUtilities):
 
     def test_standardized_text_python(self):
         """Make sure standardized text matches from python"""
-        import textract
-        result = textract.process(self.standardized_text_filename)
+        import textractplus
+        result = textractplus.process(self.standardized_text_filename)
         self.assertEqual(
             six.b('').join(result.split()),
             self.get_standardized_text(),
@@ -163,7 +163,7 @@ class BaseParserTestCase(GenericUtilities):
         # run the command and make sure everything worked correctly
         temp_filename = self.get_temp_filename()
         self.assertSuccessfulCommand(
-            "textract %(option)s '%(filename)s' > %(temp_filename)s" % locals()
+            "textractplus %(option)s '%(filename)s' > %(temp_filename)s" % locals()
         )
         if cleanup:
             os.remove(temp_filename)
@@ -191,8 +191,8 @@ class BaseParserTestCase(GenericUtilities):
         if expected_filename is None:
             expected_filename = self.get_expected_filename(filename, **kwargs)
 
-        import textract
-        result = textract.process(filename, **kwargs)
+        import textractplus
+        result = textractplus.process(filename, **kwargs)
         with open(expected_filename, 'rb') as stream:
             result = self.clean_text(result)
             expected = self.clean_text(stream.read())

@@ -7,8 +7,8 @@ SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build
 APIDOC        = sphinx-apidoc
-TEXTRACT      = 
-APIDOC_IGNORE = ../textract/colors.py
+textractplus      = 
+APIDOC_IGNORE = ../textractplus/colors.py
 
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
@@ -53,12 +53,12 @@ clean:
 	rm -rf $(BUILDDIR)/*
 
 apidoc:
-#	$(APIDOC) --force --no-toc ../textract --output-dir=./textract $(APIDOC_IGNORE)
+#	$(APIDOC) --force --no-toc ../textractplus --output-dir=./textractplus $(APIDOC_IGNORE)
 #	@cat python_package > python_package.rst
-#	@grep -A8 " module" textract/textract.parsers.rst >> python_package.rst
+#	@grep -A8 " module" textractplus/textractplus.parsers.rst >> python_package.rst
 #	@echo "" >> python_package.rst
-#	@grep -A8 " module" textract/textract.rst >> python_package.rst
-#	@rm -rf ./textract
+#	@grep -A8 " module" textractplus/textractplus.rst >> python_package.rst
+#	@rm -rf ./textractplus
 
 html: apidoc
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
@@ -96,17 +96,17 @@ qthelp: apidoc
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/textract.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/textractplus.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/textract.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/textractplus.qhc"
 
 devhelp: apidoc
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/textract"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/textract"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/textractplus"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/textractplus"
 	@echo "# devhelp"
 
 epub: apidoc

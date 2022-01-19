@@ -42,13 +42,14 @@ dependencies, dependency_links = parse_requirements(requirements_filename)
 
 setup(
     name=textractplus.__name__,
-    version="1.0",
+    version="0.1",
     description="A fork from textract with extended extension support and features. No more muss. No more fuss.",
     long_description=long_description,
     url=github_url,
     download_url="%s/archives/master" % github_url,
     author='Vaibhav Haswani',
     author_email='vaibhavhaswani@gmail.com',
+    keywords = ['TEXT EXTRACTION', 'TEXTRACT', 'DOCUMENT PARSING'],
     license='MIT',
     scripts=scripts,
     packages=[

@@ -41,7 +41,7 @@ dependencies, dependency_links = parse_requirements(requirements_filename)
 
 
 setup(
-    name=textractplus.__name__,
+    name="textract-plus",
     version="0.1-beta",
     description="A fork from textract with extended extension support and features. No more muss. No more fuss.",
     long_description=long_description,

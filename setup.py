@@ -8,8 +8,8 @@ import textractplus
 scripts = glob.glob("bin/*")
 
 # read in the description from README
-with open("README.rst") as stream:
-    long_description = stream.read()
+# with open("README.rst") as stream:
+#     long_description = stream.read()
 
 github_url = 'https://github.com/VaibhavHaswani/textract-plus'
 
@@ -44,7 +44,7 @@ setup(
     name="textract-plus",
     version="0.1-beta",
     description="A fork from textract with extended extension support and features. No more muss. No more fuss.",
-    long_description=long_description,
+    # long_description=long_description,
     url=github_url,
     download_url="https://github.com/VaibhavHaswani/textract-plus/archive/refs/tags/v0.1-beta.tar.gz",
     author='Vaibhav Haswani',

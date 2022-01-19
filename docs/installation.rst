@@ -8,7 +8,7 @@ start using textract (meaning that installation should be as quick and
 painless as possible). This package is built on top of several python
 packages and other source libraries. Assuming you are using ``pip`` or
 ``easy_install`` to install textract, the `python packages
-<https://github.com/deanmalmgren/textract/blob/master/requirements/python>`_
+<https://github.com/VaibhavHaswani/textract-plus/blob/master/requirements/python>`_
 are all installed by default with textract. The source libraries are a
 separate matter though and largely depend on your operating system.
 
@@ -30,7 +30,7 @@ package manager before installing textract from pypi.
 
     It may also be necessary to install ``zlib1g-dev`` on Docker
     instances of Ubuntu. See `issue #19
-    <https://github.com/deanmalmgren/textract/pull/19>`_ for details
+    <https://github.com/VaibhavHaswani/textract-plus/pull/19>`_ for details
 
 OSX
 ---
@@ -123,7 +123,7 @@ documenation about how to install the textract dependencies, please
       before building sox, for these filetypes to work.
 
 2. Add a requirements file to the `requirements directory
-   <https://github.com/deanmalmgren/textract/tree/master/requirements>`_
+   <https://github.com/VaibhavHaswani/textract-plus/tree/master/requirements>`_
    of the project with the lower-cased name of your operating system
    (e.g. ``requirements/windows``) so we can try to keep these things
    up to date in the future.

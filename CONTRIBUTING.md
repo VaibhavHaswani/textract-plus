@@ -5,9 +5,9 @@ for the fork-branch-pull request model for github. Briefly, this means:
 
 1. Make sure your fork's `master` branch is up to date:
 
-    	git remote add deanmalmgren https://github.com/deanmalmgren/textract.git
+    	git remote add VaubhavHaswani https://github.com/VaibhavHaswani/textract-plus.git
         git checkout master
-        git pull deanmalmgren/master
+        git pull VaibhavHaswani/master
 
 2. Start a feature branch with a descriptive name about what you're
    trying to accomplish:

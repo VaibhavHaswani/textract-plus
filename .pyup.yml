@@ -10,4 +10,4 @@ requirements:
   - requirements/python-doc:
       updates: all
 assignees:
-  - deanmalmgren
+  - VaibhavHaswani

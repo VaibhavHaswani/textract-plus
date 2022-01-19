@@ -5,7 +5,7 @@
 # environments, so this provides a useful workaround to validate that the
 # extraction methods are working correctly across all development environments
 #
-# https://github.com/deanmalmgren/textract/issues/78
+# https://github.com/VaibhavHaswani/textract-plus/issues/78
 
 TARGETS = pdf/ocr_text.txt \
 	png/raw_text.txt png/standardized_text.txt \

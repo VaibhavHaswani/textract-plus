@@ -3,7 +3,7 @@
 ..   * bumpversion {major|minor|patch}
 ..   * git push && git push --tags
 ..   * twine upload -r textract dist/*
-..   * convert into release https://github.com/deanmalmgren/textract/releases
+..   * convert into release https://github.com/VaibhavHaswani/textract-plus/releases
 
 textract-plus
 =============
@@ -34,10 +34,10 @@ Extract text from any document with more power and a more wide extension scope. 
     :target: https://pyup.io/repos/github/deanmalmgren/textract/
 
 .. |Stars| image:: https://img.shields.io/github/stars/deanmalmgren/textract.svg
-    :target: https://github.com/deanmalmgren/textract/stargazers
+    :target: https://github.com/VaibhavHaswani/textract-plus/stargazers
 
 .. |Forks| image:: https://img.shields.io/github/forks/deanmalmgren/textract.svg
-    :target: https://github.com/deanmalmgren/textract/network
+    :target: https://github.com/VaibhavHaswani/textract-plus/network
 
 Currently supporting extensions
 --------------------------------

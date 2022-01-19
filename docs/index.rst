@@ -1,9 +1,5 @@
-.. textract documentation master file, created by
-   sphinx-quickstart on Fri Jul  4 11:09:09 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
-textract
+textract Plus
 ================================
 
 As undesirable as it might be, more often than not there is extremely
@@ -38,7 +34,7 @@ Currently supporting
 textract supports a growing list of file types for text extraction. If
 you don't see your favorite file type here, Please recommend other
 file types by either mentioning them on the `issue tracker
-<https://github.com/deanmalmgren/textract/issues>`_ or by
+<https://github.com/VaibhavHaswani/textract-plus/issues>`_ or by
 :ref:`contributing a pull request <contributing>`.
 
 
@@ -90,6 +86,7 @@ file types by either mentioning them on the `issue tracker
 
 * ``.xls`` via `xlrd <https://pypi.python.org/pypi/xlrd>`_
 
+
 .. this is a list of all the packages that textract uses for extraction
 .. _antiword: http://www.winfield.demon.nl/
 .. _beautifulsoup4: http://beautiful-soup-4.readthedocs.org/en/latest/
@@ -106,6 +103,20 @@ file types by either mentioning them on the `issue tracker
 .. _tesseract-ocr: https://code.google.com/p/tesseract-ocr/
 .. _unrtf: http://www.gnu.org/software/unrtf/
 
+
+Extended with Textract Plus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* ``.dotx`` via `docx2python`_
+
+* ``.docm`` via `docx2python`_
+
+* ``.pptm`` via `python-pptx`_
+
+.. this is a list of extended packages by textract plus
+.. _docx2python: https://github.com/ShayHill/docx2python
+
+
+
 .. _related-projects:
 
 Related projects
@@ -120,8 +131,8 @@ community) and is :ref:`method agnostic about how content is extracted
 there, but here is a small sample of similar projects:
 
 * `Apache Tika <http://tika.apache.org/>`_ has `very similar, if not
-  identical, aims as textract
-  <https://github.com/deanmalmgren/textract/issues/12>`_ and has
+  identical, aims as textract-plus
+  <https://github.com/VaibhavHaswani/textract-plus/issues/12>`_ and has
   impressive coverage of a wide range of file formats. It is written
   in java.
 

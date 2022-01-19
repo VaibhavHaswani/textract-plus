@@ -114,8 +114,8 @@ file types by either mentioning them on the `issue tracker
 .. _unrtf: http://www.gnu.org/software/unrtf/
 
 
-Extended support 
-----------------------------------
+> Extended support 
+
 * ``.dotx`` via `docx2python`_
 
 * ``.docm`` via `docx2python`_

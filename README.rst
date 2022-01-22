@@ -42,11 +42,12 @@ Extract text from any document with more power and a more wide extension scope. 
 How To Use
 ------------------
 * Install Package -
-`pip install textract-plus`
-* Import and Extract
-`import textractplus as tp
-text=tp.process('/path/to/document')
-print(text)`
+``pip install textract-plus``
+
+* Import and Extract-
+``import textractplus as tp``
+``text=tp.process('/path/to/document')``
+``print(text)``
 
 Currently supporting extensions
 --------------------------------

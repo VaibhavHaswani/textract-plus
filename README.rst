@@ -44,12 +44,13 @@ How To Use
 * Install Package -
 ``pip install textract-plus``
 
-* Import and Extract-
+* Import and Extract::
       import textractplus as tp
       text=tp.process('/path/to/document')
       print(text)
+      
+-----
 
----
 Currently supporting extensions
 --------------------------------
 

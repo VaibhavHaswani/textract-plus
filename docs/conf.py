@@ -51,7 +51,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'textract-plus'
-copyright = u'2014, Dean Malmgren'
+copyright = u'Dean Malmgren(2014) , Vaibhav Haswani(2022)'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -181,7 +181,7 @@ html_static_path = []
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'textractplus_doc'
+htmlhelp_basename = 'textract-plus_doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -201,7 +201,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'textractplus.tex', u'Textract Plus Documentation',
+  ('index', 'textract-plus.tex', u'Textract Plus Documentation',
    u'Vaibhav Haswani', 'manual'),
 ]
 
@@ -231,7 +231,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'textractplus', u'Textract Plus Documentation',
+    ('index', 'textract-plus', u'Textract Plus Documentation',
      [u'Vaibhav Haswani'], 1)
 ]
 
@@ -245,8 +245,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'textractplus', u'Textract Plus Documentation',
-   u'Vaibhav Haswani', 'textractplus', 'One line description of project.',
+  ('index', 'textract-plus', u'Textract Plus Documentation',
+   u'Vaibhav Haswani', 'textract-plus', 'One line description of project.',
    'Miscellaneous'),
 ]
 

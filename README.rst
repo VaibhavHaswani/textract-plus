@@ -12,8 +12,8 @@ Extract text from any document with more power and a more wide extension scope. 
 
 `Full documentation <http://textract.readthedocs.org>`__.
 
-|Build Status| |Version| |Downloads| |Test Coverage| |Documentation Status|
-|Updates| |Stars| |Forks|
+|Build Status| |Version| |Test Coverage| |Documentation Status|
+|Updates| |Forks|
 
 .. |Build Status| image:: https://travis-ci.org/deanmalmgren/textract.svg?branch=master
    :target: https://travis-ci.org/deanmalmgren/textract

@@ -10,8 +10,8 @@ assignees: ''
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Which filetype should textract support?**
-A clear and concise description of file types you think textract should be able to process.
+**Which filetype should textract-plus support?**
+A clear and concise description of file types you think textract-plus should be able to process.
 
 **Which external software (python or command line tool), can parse the requested file type**
 A clear and concise description of tools that can parse the desired filetype.

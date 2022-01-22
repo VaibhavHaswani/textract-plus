@@ -14,7 +14,7 @@ textract-plus
 .. note:: 
 
     To make the command line interface as usable as possible,
-    autocompletion of available options with textractplus is enabled by
+    autocompletion of available options with textract-plus is enabled by
     @kislyuk's amazing `argcomplete
     <https://github.com/kislyuk/argcomplete>`_ package.  Follow
     instructions to `enable global autocomplete

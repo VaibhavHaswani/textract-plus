@@ -110,7 +110,7 @@ file types by either mentioning them on the `issue tracker
 
 * ``.xls`` via `xlrd <https://pypi.python.org/pypi/xlrd>`_
 
-.. this is a list of all the packages that textract uses for extraction
+.. this is a list of all the packages that textract-plus uses for extraction
 .. _antiword: http://www.winfield.demon.nl/
 .. _beautifulsoup4: http://beautiful-soup-4.readthedocs.org/en/latest/
 .. _ebooklib: https://github.com/aerkalov/ebooklib

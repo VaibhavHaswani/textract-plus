@@ -16,22 +16,22 @@ This package provides two primary facilities for doing this, the
 
 .. code-block:: bash
 
-    textract path/to/file.extension
+    textractplus path/to/file.extension
 
 or the :ref:`python package <python-package>`
 
 .. code-block:: python
 
     # some python file
-    import textract
-    text = textract.process("path/to/file.extension")
+    import textractplus as tp
+    text = tp.process("path/to/file.extension")
 
 .. _supporting:
 
 Currently supporting
 --------------------
 
-textract supports a growing list of file types for text extraction. If
+textract-plus supports a growing list of file types for text extraction. If
 you don't see your favorite file type here, Please recommend other
 file types by either mentioning them on the `issue tracker
 <https://github.com/VaibhavHaswani/textract-plus/issues>`_ or by
@@ -122,7 +122,7 @@ Extended with Textract Plus
 Related projects
 ----------------
 
-Of course, textract isn't the first project with the aim to provide a
+Of course, textract-plus isn't the first project with the aim to provide a
 simple interface for extracting text from any document. But this is,
 to the best of my knowledge, the only project that is written in
 python (a language commonly chosen by the natural language processing
@@ -137,7 +137,7 @@ there, but here is a small sample of similar projects:
   in java.
 
 * `textract (node.js) <https://github.com/dbashford/textract>`_ has
-  similar aims as this textract package (including an identical name!
+  similar aims as this textract-plus package (including an identical name!
   great minds...). It is written in node.js.
 
 * `pandoc <http://johnmacfarlane.net/pandoc/>`_ is intended to be a

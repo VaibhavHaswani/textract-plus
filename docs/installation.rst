@@ -3,13 +3,13 @@
 Installation
 ============
 
-One of the main goals of textract is to make it as easy as possible to
-start using textract (meaning that installation should be as quick and
+One of the main goals of textract-plus is to make it as easy as possible to
+start using textract-plus (meaning that installation should be as quick and
 painless as possible). This package is built on top of several python
 packages and other source libraries. Assuming you are using ``pip`` or
-``easy_install`` to install textract, the `python packages
+``easy_install`` to install textract-plus, the `python packages
 <https://github.com/VaibhavHaswani/textract-plus/blob/master/requirements/python>`_
-are all installed by default with textract. The source libraries are a
+are all installed by default with textract-plus. The source libraries are a
 separate matter though and largely depend on your operating system.
 
 Ubuntu / Debian
@@ -18,13 +18,13 @@ Ubuntu / Debian
 There are two steps required to run this package on
 Ubuntu/Debian. First you must install some system packages using the
 `apt-get <https://help.ubuntu.com/14.04/serverguide/apt-get.html>`_
-package manager before installing textract from pypi.
+package manager before installing textract-plus from pypi.
 
 .. code-block:: bash
 
     apt-get install python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils pstotext tesseract-ocr \
     flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig libpulse-dev
-    pip install textract
+    pip install textract-plus
 
 .. note::
 
@@ -38,14 +38,14 @@ OSX
 These steps rely on you having `homebrew <http://brew.sh/>`_ installed
 as well as the `cask <http://caskroom.io/>`_ plugin (``brew tap caskroom/cask``). The basic idea is to first install
 `XQuartz <https://xquartz.macosforge.org/landing/>`_ before
-installing a bunch of system packages before installing textract from
+installing a bunch of system packages before installing textract-plus from
 pypi.
 
 .. code-block:: bash
 
     brew install --cask xquartz
     brew install poppler antiword unrtf tesseract swig
-    pip install textract
+    pip install textract-plus
 
 ..     brew install libxml2 libxslt antiword poppler tesseract
 ..     brew link libxml2 libxslt
@@ -60,7 +60,7 @@ pypi.
 
     Depending on how you have python configured on your system with
     homebrew, you may also need to install the python
-    development header files for textract to properly install.
+    development header files for textract-plus to properly install.
 
 FreeBSD
 -------
@@ -73,7 +73,7 @@ Ubuntu / Debian while using ``pkg`` as package manager.
     pkg install lang/python38 devel/py-pip textproc/libxml2 textproc/libxslt textproc/antiword textproc/unrtf \
     graphics/poppler print/pstotext graphics/tesseract audio/flac multimedia/ffmpeg audio/lame audio/sox \
     graphics/jpeg-turbo
-    pip install textract
+    pip install textract-plus
 
 Don't see your operating system installation instructions here?
 ---------------------------------------------------------------
@@ -83,13 +83,13 @@ hard to anticipate all of the different environments that need to be
 accomodated (wouldn't it be awesome if there were a system-agnostic
 package manager or, better yet, if python could install these system
 dependencies for you?!?!). If you're operating system doesn't have
-documenation about how to install the textract dependencies, please
+documenation about how to install the textract-plus dependencies, please
 :ref:`contribute a pull request <contributing>` with:
 
 1. A new section in here with the appropriate details about how to
    install things. In particular, please give instructions for how to
    install the following libraries before running ``pip install
-   textract``:
+   textract-plus``:
 
     - `libxml2 2.6.21 or later <http://xmlsoft.org/downloads.html>`_
       is required by the ``.docx`` parser which uses `lxml

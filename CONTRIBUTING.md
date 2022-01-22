@@ -50,11 +50,11 @@ add support for hitherto unsupported file type `.abc123`:
   `textract.parsers.utils.ShellParser` and implements the
   `extract(self, filename, **kwargs)` method.
 
-* add a test file in `tests/abc123/raw_text.abc123`, run textract on
+* add a test file in `tests/abc123/raw_text.abc123`, run textract-plus on
   it like this:
 
   ```shell
-  textract tests/abc123/raw_text.abc123 > tests/abc123/raw_text.txt
+  textractplus tests/abc123/raw_text.abc123 > tests/abc123/raw_text.txt
   ```
 
   and add the basic test suite by creating

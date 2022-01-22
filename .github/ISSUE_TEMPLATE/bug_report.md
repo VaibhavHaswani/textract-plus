@@ -25,8 +25,8 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. Windows 10]
- - Textract version [e.g. 1.6.3]
- - Python version [e.g. 3.7]
+ - Textract Plus version [e.g. 0.1]
+ - Python version [e.g. 3.8]
  - Virtual environment (yes/no)
 
 **Additional context**

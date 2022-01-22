@@ -5,7 +5,7 @@
 ..   * twine upload -r textract dist/*
 ..   * convert into release https://github.com/VaibhavHaswani/textract-plus/releases
 
-textract-plus
+Textract Plus
 =============
 
 Extract text from any document with more power and a more wide extension scope. No more muss. No more fuss.
@@ -137,3 +137,6 @@ Extended support
 
 .. this is a list of extended packages by textract plus
 .. _docx2python: https://github.com/ShayHill/docx2python
+
+
+-----

@@ -45,10 +45,11 @@ How To Use
 ``pip install textract-plus``
 
 * Import and Extract-
-``import textractplus as tp``
-``text=tp.process('/path/to/document')``
-``print(text)``
+      import textractplus as tp
+      text=tp.process('/path/to/document')
+      print(text)
 
+---
 Currently supporting extensions
 --------------------------------
 

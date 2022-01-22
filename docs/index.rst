@@ -1,5 +1,5 @@
 
-textract Plus
+Textract Plus
 ================================
 
 As undesirable as it might be, more often than not there is extremely
